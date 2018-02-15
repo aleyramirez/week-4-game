@@ -1,0 +1,43 @@
+.head, h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 200%;
+    color: white;
+    background-color: black;
+}
+.white-font {
+    color: white;
+}
+.head, .button, .paragraph, .win-loss {
+    border: 2.5px solid black;
+}
+.gray-background {
+    background: #7e7e7e;
+}
+.red {
+    height: 10%;
+}
+.orange {
+    height: 10%;
+}
+.yellow {
+    height: 10%;
+}
+.blue {
+    height: 10%;
+}
+body {
+    background-image: url(../images/background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+.white-font {
+    color: white
+}
+.orange-button {
+    background-color: #ff9500;
+    border-color: #eea236;
+}
+.yellow-button {
+    background-color: #f0ff25;
+    border-color: #eea236;
+}

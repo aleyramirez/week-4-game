@@ -1,0 +1,61 @@
+<!DOCTYPE>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>CrystalCollector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
+</head>
+<body>
+    <div class="container-fluid head text-center">
+        <h1>Crystal Collector</h1>
+    </div>
+    <br>
+    <div class="container game-intro">
+        <div class="row">
+            <div class="col-md-5 paragraph white-font gray-background">
+                <p class="black-font">
+                    In this game, you will must use your memory to figure out the value of each of the crystals to reach the target score. If your current score is under the target score, then keep trying to unitl the current scrore equal the target score. If you go over the score, you lose. If you reach the exact score you win! Good luck!
+                </p>
+                <br>
+                <p>Target Score: <span id="target-score"></span></p>
+                <br>
+                <p>Your Score: <span id="your-score"></span></p>
+            </div>
+            <div class="col-md-2">
+            
+            </div>
+            <div class="col-md-5">
+                <button type="button" id="red-button" class="btn btn-danger">
+                    <img class = "red"src="assets/images/red-crystal.jpg">
+                </button>
+                <button type="button" class="btn btn-primary blue-button">
+                    <img class = "blue"src="assets/images/blue-crystal.jpg">
+                </button>
+                <button type="button" class="btn btn-warning yellow-button">
+                    <img class = "yellow"src="assets/images/yellow-crystal.jpg">
+                </button>
+                <button type="button" class="btn btn-warning orange-button">
+                    <img class = "orange"src="assets/images/orange-crystal.jpg">
+                </button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row"col-md->
+            <div class="col-md-5 gray-background white-font text-center win-loss">
+                <p class="white-font" >Wins: <span class="wins"></span></p>
+                <br>
+                <p class="white-font">Losses: <span class"losse"></span></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
