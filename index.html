@@ -32,15 +32,15 @@
             </div>
             <div class="col-md-5">
                 <button type="button" id="red-button" class="btn btn-danger">
-                    <img class = "red"src="assets/images/red-crystal.jpg">
+                    <input type="hidden" id= "redHidden" value=""/><img class = "red"src="assets/images/red-crystal.jpg">
                 </button>
-                <button type="button" class="btn btn-primary blue-button">
+                <button type="button" id="blue-button" class="btn btn-primary">
                     <img class = "blue"src="assets/images/blue-crystal.jpg">
                 </button>
-                <button type="button" class="btn btn-warning yellow-button">
+                <button type="button" id="yellow-button" class="btn btn-warning">
                     <img class = "yellow"src="assets/images/yellow-crystal.jpg">
                 </button>
-                <button type="button" class="btn btn-warning orange-button">
+                <button type="button" id="orange-button" class="btn btn-warning">
                     <img class = "orange"src="assets/images/orange-crystal.jpg">
                 </button>
             </div>
@@ -50,9 +50,9 @@
     <div class="container">
         <div class="row"col-md->
             <div class="col-md-5 gray-background white-font text-center win-loss">
-                <p class="white-font" >Wins: <span class="wins"></span></p>
+                <p class="white-font" >Wins: <span id="wins"></span></p>
                 <br>
-                <p class="white-font">Losses: <span class"losse"></span></p>
+                <p class="white-font">Losses: <span id="losses"></span></p>
             </div>
         </div>
     </div>
