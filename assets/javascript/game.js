@@ -27,6 +27,8 @@ function checkScore() {
     var targScore = parseInt(targetScore.innerHTML);
     var wins = parseInt(win.innerHTML);
     var losses = parseInt(loss.innerHTML);
+    
+    
 if (playerInt === targScore) {
     wins++;
     alert('You Win!');
